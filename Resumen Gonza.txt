@@ -1,0 +1,27 @@
+**PENDIENTES**
+Validaciones
+Que el Admin pueda ver Pedidos 
+Que el Admin pueda cambiar el estado de la compra (Recpecionado/Pedido)
+Dar formato a Pantallas Pedido y Detalle Pedido
+Revisar que permite Registrar usuario sin datos en Usuario -> mail vacío
+Revisar que cuando se intenta volver a Registrar un Usuario con mail repetido, no responde. 
+Agregar Código para Confirmar Mail
+Agregar confirmación cuando Cliente quiera borrar su Usuario
+
+**HECHO**
+Pantalla Principal Cliente, que aparezca con el Nombre del Cliente
+Cliente -> Eliminar Usuario
+Que el Cliente pueda ver sus pedidos
+Configurar Pantalla Pedido -> Cliente puede ver GridView con historial de sus Pedidos
+Configurar Pantalla Detalle Pedido -> Cliente puede ver GridView de los items de la compra y el Detalle de la compra
+
+
+**DUDAS**
+No puedo castear de la DB a Char en C# -> System.InvalidCastException: 'Specified cast is not valid.'
+
+Class Carrito está para borrar... ?
+
+Creo que no debería estar la Pantalla Carrito en la condición del Evento Page_Load y el resto que necesiten que el User tenga Sesión Activa
+
+No te escribe el nombre en el Label en algunas páginas
+
